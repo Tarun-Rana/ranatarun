@@ -1,0 +1,46 @@
+
+.logo-size{
+    width: 100px;
+    height: 50px;
+}
+.header a{
+color: black;
+display: block;
+font-size: 12px;
+line-height: 20px;
+margin: 0 18px;
+padding: 7px 0 2px 0;
+text-decoration: none;
+font-family: 'Montserrat',sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+position: relative;
+outline: none;
+text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+.header a:hover, a:focus {
+text-decoration: none !important;
+outline: none;
+}
+.header a {
+background-color: transparent;
+-webkit-text-decoration-skip: objects;
+}
+.header a:after, a:after {
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 100%;
+height: 1px;
+background: rgba(255,255,255,0.4);
+content: '';
+opacity: 0;
+-khtml-opacity: 0;
+-moz-opacity: 0;
+filter: alpha(opacity=0);
+-webkit-transition: 0.3s ease;
+-moz-transition: 0.3s ease;
+-o-transition: 0.3s ease;
+-ms-transition: 0.3s ease;
+transition: 0.3s ease;
+}
