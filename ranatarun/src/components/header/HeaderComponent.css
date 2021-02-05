@@ -4,7 +4,6 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 .logo-size {
   display: flex;
@@ -75,4 +74,5 @@ a:focus {
   width: 18px;
   height: 18px;
   margin-right: 20px;
+  margin-top: auto;
 }
