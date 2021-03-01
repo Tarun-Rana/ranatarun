@@ -1,7 +1,4 @@
-.about-container {
-  height: 100vh;
-  background-color: white;
-}
+
 .quote {
   font-family: Graphik, sans-serif;
   font-weight: 300;
@@ -18,4 +15,34 @@
 }
 .carousel h3,p{
   color: black;
+}
+.card-align{
+  display: flex !important;
+  justify-content: center !important;
+}
+.card {
+  max-height: 500px;
+  min-height: 460px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-image{
+  border-radius: 5px 5px 0 0;
+}
+.card-body img{
+  filter: brightness(20%);
+  transition: filter .3s ease;
+}
+.card-body img:hover{
+  filter: brightness(100%);
+}
+.card-img-top {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
 }

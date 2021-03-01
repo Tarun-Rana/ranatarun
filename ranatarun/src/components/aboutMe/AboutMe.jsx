@@ -1,82 +1,103 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import './AboutMe.css'
-import Carousel from 'react-bootstrap/Carousel'
-import cts from '../../items/Cognizant.png'
-import infy from '../../items/Infosys.png'
+import max from '../../items/max.png'
+import cts from '../../items/cts.png'
+import ip from '../../items/ip.jpg'
+import ieee from '../../items/iee.jpg'
 
 class AboutMe extends Component {
   render () {
     return (
-      <div className='about-container'>
+      <div className='container-fluid'>
         <div className='row'>
           <div className='col-12'>
-            <div className='quote m-5'>Technologies I've worked on-</div>
+            <div className='quote m-5'>Scholar Work-</div>
           </div>
-          <div className='row'>
-            <div className='col-12  p-5 m-5 '>
-              <Carousel className='carousel'>
-                <Carousel.Item interval={1000}>
+        </div>
+        <div class='row'>
+          <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
+            <a
+              href='https://www.galgotiasuniversity.edu.in/pdfs/computer-science-engineering-5aug19.pdf'
+              target='_blank'
+            >
+              <div class='card text-center'>
+                <div class='card-body'>
                   <img
-                    className='image'
-                    src={cts}
-                    alt='cognizant'
+                    class='card-img-top card-image'
+                    src={ip}
+                    alt='Card image cap'
                   ></img>
-                  <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>
-                      Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item interval={500}>
-                  <img
-                    className='image'
-                    src={cts}
-                    alt='cognizant'
-                  ></img>
-                  <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className='image'
-                    src={cts}
-                    alt='cognizant'
-                  ></img>
-                  <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                      Praesent commodo cursus magna, vel scelerisque nisl
-                      consectetur.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
-            </div>
-          </div>
-          {/* <div className='row'>
-            <div className='col-6 p-5'>
-              <div className='card w-50'>
-                <img className='card-img-top' src={infy} alt='infosys'></img>
-              </div>
-            </div>
-            <div className='col-6 p-5'>
-              <div className='card w-50'>
-                <div className='card-body'>
-                  <img
-                    className=' card-img-top image'
-                    src={cts}
-                    alt='cognizant'
-                  ></img>
+                  <h5 class='card-title mt-3'>Patent</h5>
+                  <p class='card-text'>
+                    Automated Canal Irrigation System using IOT for Indian
+                    Farmers.
+                  </p>
                 </div>
               </div>
-            </div>
-          </div> */}
+            </a>
+          </div>
+          <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
+            <a
+              href='https://ieeexplore.ieee.org/abstract/document/8776613'
+              target='_blank'
+            >
+              <div class='card text-center'>
+                <div class='card-body'>
+                  <img
+                    class='card-img-top'
+                    src={ieee}
+                    alt='Card image cap'
+                  ></img>
+                  <h5 class='card-title mt-3'>Research Paper</h5>
+                  <p class='card-text'>
+                    An Intelligent approach for UAV and Drone privacy security
+                    using BLOCKCHAIN method.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
+            <a
+              href=''
+              target='_blank'
+            >
+              <div class='card text-center'>
+                <div class='card-body'>
+                  <img
+                    class='card-img-top card-image'
+                    src={cts}
+                    alt='Card image cap'
+                  ></img>
+                  <h5 class='card-title mt-3'>Full Stack Ceritfication</h5>
+                  <p class='card-text'>
+                    External vendor  exam certification by Cognizant for FSC.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
+            <a
+              href='https://www.galgotiasuniversity.edu.in/pdfs/computer-science-engineering-5aug19.pdf'
+              target='_blank'
+            >
+              <div class='card text-center'>
+                <div class='card-body'>
+                  <img
+                    class='card-img-top card-image'
+                    src={max}
+                    alt='Card image cap'
+                  ></img>
+                  <h5 class='card-title mt-3'>Geman Certification</h5>
+                  <p class='card-text'>
+                    A2 level certified from Max Muller Bhavan Delhi.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     )
