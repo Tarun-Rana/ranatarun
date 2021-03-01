@@ -1,17 +1,22 @@
-.skills-container{
-    width: auto;
-    height: 500px;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position:center top ;
-    background-size: cover;
+.skills-container {
+  width: auto;
+  height: 100vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 .text {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.font{
     color: white;
-  }
+    font-size: 72px;
+    font-size: 4.8vw;
+    font-family: neue-haas-grotesk-display,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    line-height: .76em;
+    padding: .24em;
+}

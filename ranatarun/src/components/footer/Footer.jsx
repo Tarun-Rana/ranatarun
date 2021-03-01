@@ -5,8 +5,10 @@ import './Footer.css'
 class Footer extends Component {
   render () {
     return (
-      <div className="footer-container text">
-          Footer
+      <div className='footer-container'>
+        <div className='bg'>
+          <div className='text'>Footer</div>
+        </div>
       </div>
     )
   }

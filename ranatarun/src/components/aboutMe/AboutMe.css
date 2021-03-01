@@ -1,17 +1,21 @@
-.about-container{
-    width: auto;
-    height: 500px;
-    background-color:black;
-    background-repeat: no-repeat;
-    background-position:center top ;
-    background-size: cover;
+.about-container {
+  height: 100vh;
+  background-color: white;
 }
-.text {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
+.quote {
+  font-family: Graphik, sans-serif;
+  font-weight: 300;
+  font-size: 1.875rem;
+  line-height: 2.813rem;
+}
+.image{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.carousel{
+  justify-content: center;
+}
+.carousel h3,p{
+  color: black;
+}

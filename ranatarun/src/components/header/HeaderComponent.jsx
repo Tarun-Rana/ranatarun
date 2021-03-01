@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
-import { Row, Nav, Col, Navbar } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 import './HeaderComponent.css'
 import Logo from '../../items/tr.png'
 
@@ -8,17 +8,17 @@ class HeaderComponent extends Component {
   render () {
     return (
       <>
-        <Navbar style={{background:'black'}} expand='md' sticky='top'>
+        <Navbar className='header' expand='md' sticky='top'>
           <Navbar.Brand href='#home'>
             <img className='logo-size' src={Logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='m-auto , anchor'>
-              <a href='#home'>Home</a>
-              <a href='#link'>About</a>
-              <a href='#home'>Skills</a>
-              <a href='#link'>Contact</a>
+            <Nav className='anchor'>
+              <a href='/'>Home</a>
+              <a href='/aboutMe'>About me</a>
+              <a href='/skills'>Skills</a>
+              <a href='/footer'>Contact</a>
             </Nav>
             <Nav className='ml-auto , icons'>
               <a target="_blank" href='https://www.instagram.com/ranatarun/'>
