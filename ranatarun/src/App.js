@@ -5,7 +5,6 @@ import MainPageComponent from './components/mainPage/MainPageComponent'
 import AboutMe from './components/aboutMe/AboutMe'
 import Skills from './components/skills/Skills'
 import Footer from './components/footer/Footer'
-import Journey from './components/journey/Journey'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {

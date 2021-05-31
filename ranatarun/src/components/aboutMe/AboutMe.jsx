@@ -14,14 +14,13 @@ class AboutMe extends Component {
           <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
             <a
               href='https://www.galgotiasuniversity.edu.in/pdfs/computer-science-engineering-5aug19.pdf'
-              target='_blank'
             >
               <div class='card text-center'>
                 <div class='card-body'>
                   <img
                     class='card-img-top card-image'
                     src={ip}
-                    alt='Card image cap'
+                    alt='img'
                   ></img>
                   <h5 class='card-title mt-3'>Patent</h5>
                   <p class='card-text'>
@@ -35,14 +34,14 @@ class AboutMe extends Component {
           <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
             <a
               href='https://ieeexplore.ieee.org/abstract/document/8776613'
-              target='_blank'
+              
             >
               <div class='card text-center'>
                 <div class='card-body'>
                   <img
                     class='card-img-top'
                     src={ieee}
-                    alt='Card image cap'
+                    alt='img'
                   ></img>
                   <h5 class='card-title mt-3'>Research Paper</h5>
                   <p class='card-text'>
@@ -55,15 +54,14 @@ class AboutMe extends Component {
           </div>
           <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
             <a
-              href=''
-              target='_blank'
+              href='//#region '
             >
               <div class='card text-center'>
                 <div class='card-body'>
                   <img
                     class='card-img-top card-image'
                     src={cts}
-                    alt='Card image cap'
+                    alt='img'
                   ></img>
                   <h5 class='card-title mt-3'>Full Stack Ceritfication</h5>
                   <p class='card-text'>
@@ -76,14 +74,13 @@ class AboutMe extends Component {
           <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
             <a
               href='https://www.galgotiasuniversity.edu.in/pdfs/computer-science-engineering-5aug19.pdf'
-              target='_blank'
             >
               <div class='card text-center'>
                 <div class='card-body'>
                   <img
                     class='card-img-top card-image'
                     src={max}
-                    alt='Card image cap'
+                    alt='img'
                   ></img>
                   <h5 class='card-title mt-3'>Geman Certification</h5>
                   <p class='card-text'>
