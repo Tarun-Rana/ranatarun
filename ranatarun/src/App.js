@@ -5,7 +5,8 @@ import MainPageComponent from './components/mainPage/MainPageComponent'
 import AboutMe from './components/aboutMe/AboutMe'
 import Skills from './components/skills/Skills'
 import Footer from './components/footer/Footer'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Journey from './components/journey/Journey'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
@@ -13,13 +14,11 @@ function App() {
       <HeaderComponent />
         <Switch>
           <Route path="/" exact component={MainPageComponent} />
-          <Route path="/aboutMe" exact component={AboutMe} />
+          <Route path="/journey" exact component={AboutMe} />
+          <Route path="/aboutMe" exact component={Skills} />
           <Route path="/skills" exact component={Skills} />
-          <Route path="/footer" exact component={Footer} />
         </Switch>
-      {/* <AboutMe />
-      <Skills />
-      <Footer /> */}
+      <Footer />
     </Router>
   );
 }

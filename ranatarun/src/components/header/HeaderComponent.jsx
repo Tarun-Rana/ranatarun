@@ -9,17 +9,11 @@ class HeaderComponent extends Component {
     return (
       <>
         <Navbar className='header' expand='md' sticky='top'>
-          <Navbar.Brand href='#home'>
+          <Navbar.Brand >
             <img className='logo-size' src={Logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='anchor'>
-              <a href='/'>Home</a>
-              <a href='/aboutMe'>About me</a>
-              <a href='/skills'>Skills</a>
-              <a href='/footer'>Contact</a>
-            </Nav>
             <Nav className='ml-auto , icons'>
               <a target="_blank" href='https://www.instagram.com/ranatarun/'>
                 <svg

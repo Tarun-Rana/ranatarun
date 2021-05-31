@@ -2654,7 +2654,7 @@ class MainPageComponent extends Component {
                   </g>
                   <g id='Ground'>
                     <g id='background'>
-                      <g id='ground grey'>
+                      <g id='ground-grey'>
                         <g id='Group_527'>
                           <g id='Group_528'>
                             <path

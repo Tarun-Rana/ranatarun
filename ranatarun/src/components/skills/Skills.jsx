@@ -5,20 +5,20 @@ import './Skills.css'
 class Skills extends Component {
   render () {
     return (
-      <div className="skills-container">
+      <div className=" container-fluid skills-container">
         <div className='row'>
-          <div className='col-4'>
-            <div className='text'>
-            Component Skills
-            </div>
+          <div className='col-lg-8 col-md-8  col-sm-6 col-xs-4 text'>
+            
           </div>
-          <div className='col-8'>
+          <div className='col-lg-4 col-md-8 col-sm-6 col-xs-8 mt-5'>
             <div className='font'>
-                Style 2
+                Did I told you I'm a big time F1 enthusiast???
             </div>
+            <div className='text'>
+              Ps. Ask me about KERS and DRS.
+          </div>
           </div>
         </div>
-          
       </div>
     )
   }

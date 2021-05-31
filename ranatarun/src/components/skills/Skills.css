@@ -1,9 +1,9 @@
 .skills-container {
   width: auto;
-  height: 100vh;
-  background-color: black;
+  height: 60vh;
+  background-image: url('../../items/f1.jpg');
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
   background-size: cover;
 }
 .text {
@@ -17,6 +17,5 @@
     font-family: neue-haas-grotesk-display,Helvetica,Arial,sans-serif;
     font-weight: 500;
     line-height: 1em;
-    line-height: .76em;
     padding: .24em;
 }

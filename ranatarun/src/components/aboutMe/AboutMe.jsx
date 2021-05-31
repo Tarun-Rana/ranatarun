@@ -9,13 +9,8 @@ import ieee from '../../items/iee.jpg'
 class AboutMe extends Component {
   render () {
     return (
-      <div className='container-fluid'>
-        <div className='row'>
-          <div className='col-12'>
-            <div className='quote m-5'>Scholar Work-</div>
-          </div>
-        </div>
-        <div class='row'>
+      <div className='container-fluid about-container'>
+        <div class='row mb-4'>
           <div class='col-lg-3 col-md-6 col-sm-12 d-flex card-align mt-3'>
             <a
               href='https://www.galgotiasuniversity.edu.in/pdfs/computer-science-engineering-5aug19.pdf'
@@ -92,7 +87,7 @@ class AboutMe extends Component {
                   ></img>
                   <h5 class='card-title mt-3'>Geman Certification</h5>
                   <p class='card-text'>
-                    A2 level certified from Max Muller Bhavan Delhi.
+                    A2 level certified in spoken, verbal and written german by Max Muller Bhavan Delhi.
                   </p>
                 </div>
               </div>
